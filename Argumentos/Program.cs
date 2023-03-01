@@ -2,6 +2,9 @@
 
 namespace Argumentos
 {
+    /// <summary>
+    /// program to input multiple arguments and count them
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
