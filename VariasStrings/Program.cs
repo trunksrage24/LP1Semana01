@@ -6,6 +6,21 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+            //variables ex6
+            double xx = 0.12345;
+            int ii = 18;
+
+            //write xx
+            xx = Math.Round(xx, 2);
+            Console.Write(xx + "\n");
+
+            xx = (double)Math.Round((xx * 100), 1);
+            Console.Write(xx + "\n");
+
+            //write ii
+            Console.Write(ii.ToString("X") + "\n");
+            Console.Write(ii.ToString("C") + "\n");
+
             //string variables
             string Sentence = "This is a sentence";
             string VerbatimSentence = @"""This sentence is in quotation marks""";
@@ -21,15 +36,15 @@ namespace VariasStrings
             float DecNumber = 3.1415f;
 
             //concatenate variables in screen
-            Console.WriteLine("Concatenate with int: " + IntNumber + "\n");
-            Console.WriteLine("Concatenate with float: " + DecNumber + "\n");
+            Console.WriteLine("Concatenate with int: " + IntNumber);
+            Console.WriteLine("Concatenate with float: " + DecNumber);
 
             //variables to interpolate
             int X = 75;
             int Y = 25;
             
             //interpolate variables in screen
-            Console.WriteLine("valor de W é: " + (X + Y) + "\n");
+            Console.WriteLine("valor de W é: " + (X + Y));
 
             //write string.format()
             Console.Write(string.Format("Y é {1},X é {0}", Y, X) + "\n");

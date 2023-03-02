@@ -3,5 +3,7 @@
         "Hexa",
         "Tipos",
         "Varios"
+    ],
+    "editor.rulers": [80
     ]
 }
