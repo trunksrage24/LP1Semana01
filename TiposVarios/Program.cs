@@ -42,6 +42,21 @@ namespace TiposVarios
             Console.Write(Math.Pow(Exponent, Exponent) +"\n");
             Console.Write(Fraction +"\n");
 
+            //variables for booleans
+            bool MathCondition = 10+2 > 5*2;
+            string Phrase = "My name is Pedro";
+            string TrueStatement = "My name is Vitor";
+
+            //condition to use booleans
+            if (MathCondition = true)
+            {
+                Console.Write(MathCondition + "\n");
+            }
+            
+            if(Phrase != TrueStatement)
+            {
+                Console.Write(Phrase + "\n");
+            }
         }
     }
 }
