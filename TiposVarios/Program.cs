@@ -31,6 +31,17 @@ namespace TiposVarios
             Console.Write(SnowFlake + "\n");
             Console.Write(Skull + "\n");
             Console.Write(Communism + "\n");
+
+            //variables for decimals, floats and doubles
+            double SqrRt = 2;
+            double Exponent = 2;
+            double Fraction = 1d/3d;
+
+            //write in console real numbers
+            Console.Write(Math.Sqrt(SqrRt) +"\n");
+            Console.Write(Math.Pow(Exponent, Exponent) +"\n");
+            Console.Write(Fraction +"\n");
+
         }
     }
 }
