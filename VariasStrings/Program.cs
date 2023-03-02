@@ -15,6 +15,27 @@ namespace VariasStrings
             Console.Write(Sentence + "\n");
             Console.Write(VerbatimSentence + "\n");
             Console.Write(FilePath + "\n");
+
+            //variables to concatenate
+            int IntNumber = 5;
+            float DecNumber = 3.1415f;
+
+            //concatenate variables in screen
+            Console.WriteLine("Concatenate with int: " + IntNumber + "\n");
+            Console.WriteLine("Concatenate with float: " + DecNumber + "\n");
+
+            //variables to interpolate
+            int X = 75;
+            int Y = 25;
+            
+            //interpolate variables in screen
+            Console.WriteLine("valor de W é: " + (X + Y) + "\n");
+
+            //write string.format()
+            Console.Write(string.Format("Y é {1},X é {0}", Y, X) + "\n");
+
+            //write directly on screen
+            Console.WriteLine(@"""Verbatim with X = {0}""", X);
         }
     }
 }

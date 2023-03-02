@@ -13,7 +13,7 @@ namespace Argumentos
             Console.Write("Arguments Are: "); 
             for (int i = 0; i < args.Length; i++)
             {
-                Console.Write(args[i]);
+                Console.Write(args[i] + "\n");
             }
             Console.ReadLine();
         }
